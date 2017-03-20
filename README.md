@@ -5,8 +5,8 @@ When lapped texts are hidden, you can see "+" button. "+" button is clicked then
 When lapped texts are open, you can see "-" button. "-" button is clicked then lapped texts hide.
 
 ## usage
-First, put lapText.rb on your `_plugin` folder. Put lapText.css on your project folder, and load on header of html file.  
-Of course, you can rewrite lapText.css.
+First, put lapText.rb on your `_plugin` folder. Put laptext.css on your project folder, and load on header of html file.  
+Of course, you can rewrite laptext.css.
 
 ### Liquid Tag
 ```
@@ -20,3 +20,17 @@ If you want to use this tag twice and more, you should assign other "id".
 
 "open" is 'open' or 'close' or not set.  
 If you assign 'open', lapped texts are open when the page is created. 
+
+## image
+![sample](laptext_image.png)
+```
+## laptext demo
+{% laptext open %}
+Start lapped text.  
+...  
+...  
+Last row of lapped text.
+{% endlaptext %}
+
+After "endlaptext"
+```
