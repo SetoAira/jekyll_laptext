@@ -1,0 +1,27 @@
+input[type="checkbox"].lapBtnBox {
+  display: none;
+}
+
+input[type="checkbox"].lapBtnBox + .lapBtn {
+  border: solid 1px #222;
+  display: block;
+  height: 1em;
+  margin-bottom: .2em;
+  width: 1em;
+}
+
+input[type="checkbox"].lapBtnBox + .lapBtn:before {
+  content: "+"
+}
+
+input[type="checkbox"].lapBtnBox:checked + .lapBtn:before {
+  content: "-"
+}
+
+input[type="checkbox"].lapBtnBox + label + p.lapTxt {
+  display: none;
+}
+
+input[type="checkbox"].lapBtnBox:checked + label + p.lapTxt {
+  display: block;
+}
