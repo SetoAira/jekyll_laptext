@@ -18,5 +18,5 @@ lapped texts
 "id" is integer.  
 If you want to use this tag twice and more, you should assign other "id".
 
-"open" is 'open' or 'close' or not set.
+"open" is 'open' or 'close' or not set.  
 If you assign 'open', lapped texts are open when the page is created. 
