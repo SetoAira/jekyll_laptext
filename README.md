@@ -7,7 +7,7 @@ When lapped texts are open, you can see "-" button. "-" button is clicked then l
 This tag uses only html and css, dosen't use javascript.
 
 ## usage
-First, put lapText.rb on your `_plugin` folder. Put laptext.css on your project folder, and load on header of html file.  
+First, put lapText.rb on your `_plugins` folder. Put laptext.css on your project folder, and load on header of html file.  
 Of course, you can rewrite laptext.css.
 
 ### Liquid Tag
